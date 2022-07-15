@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="zh-hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>webp vs jepg</title>
+    <meta name="description" content="webp vs jepg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        padding: 48px;
+        display: flex;
+        margin-bottom: 24px;
+      }
+
+      .container .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .column img {
+        width: 400px;
+        vertical-align: middle;
+      }
+      
+      .container:first-child .column {
+        margin-right: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <span>webp</span>
+        <img src="./3.webp" />
+      </div>
+      <div class="column">
+        <span>png</span>
+         <img src="./3.png" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="column">
+        <span>webp</span>
+        <img src="./rgb.webp" />
+      </div>
+      <div class="column">
+        <span>png</span>
+         <img src="./rgb.png" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="column">
+        <span>webp</span>
+        <img src="./u76c0g_bliznaca_srgb8.webp" />
+      </div>
+      <div class="column">
+        <span>png</span>
+         <img src="./u76c0g_bliznaca_srgb8.png" />
+      </div>
+    </div>
+  </body>
+</html>
